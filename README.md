@@ -26,6 +26,7 @@ gulp.task('app', function() {
     .pipe(gulp.dest('./js/'));
 });
 ```
+
 before this plugin work,you file may like:
 ```html
 <!DOCTYPE html>
@@ -35,7 +36,7 @@ before this plugin work,you file may like:
     <title>Document</title>
 </head>
 <body>
-    <script src="{path}/static/main.125631635361.js"></script>
+    <script src="{path}/static/app.125631635361.js"></script>
 </body>
 </html>
 ```
@@ -51,7 +52,7 @@ when plugin works done,file will look like:
     <title>Document</title>
 </head>
 <body>
-    <script src="{path}/static/main.2894204284928.js"></script>
+    <script src="{path}/static/app.2894204284928.js"></script>
 </body>
 </html>
 ```
