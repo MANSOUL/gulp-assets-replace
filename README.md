@@ -12,7 +12,7 @@
 ```js
 const path = require('path')
 const gulp = require('gulp')
-const = require('gulp-rename'),
+const rename = require('gulp-rename'),
 const assetsReplace = require('./gulp-assets-replace')
 
 gulp.task('app', function() {
